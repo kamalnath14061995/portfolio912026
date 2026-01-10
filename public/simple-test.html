@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Video Test</title>
+    <style>
+        body { margin: 0; background: black; }
+        video { width: 100vw; height: 100vh; object-fit: cover; }
+        .info { position: fixed; top: 20px; left: 20px; color: white; font-family: Arial; background: rgba(0,0,0,0.8); padding: 10px; }
+    </style>
+</head>
+<body>
+    <div class="info">
+        <div>Status: <span id="status">Loading...</span></div>
+        <button onclick="playVideo()" style="margin-top: 10px;">Play Video</button>
+    </div>
+    
+    <video id="video" muted loop>
+        <source src="videos/background-video.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        const video = document.getElementById('video');
+        const status = document.getElementById('status');
+        
+        video.addEventListener('loadeddata', () => {
+            status.textContent = 'Video loaded successfully!';
+            playVideo();
+        });
+        
+        video.addEventListener('error', (e) => {
+            status.textContent = 'Video failed to load: ' + e.message;
+        });
+        
+        function playVideo() {
+            video.play().then(() => {
+                status.textContent = 'Video playing!';
+            }).catch(e => {
+                status.textContent = 'Play failed: ' + e.message;
+            });
+        }
+    </script>
+</body>
+</html>

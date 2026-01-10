@@ -1,0 +1,143 @@
+/* App.css - Additional styles for the portfolio */
+
+.App {
+  text-align: left;
+}
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom navbar toggler for dark theme */
+.luxury-navbar .navbar-toggler {
+  border: 1px solid var(--primary-gold);
+  padding: 0.25rem 0.5rem;
+}
+
+.luxury-navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.25);
+}
+
+.luxury-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d4af37' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Loading animation for video */
+.video-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+.video-background.loaded::before {
+  opacity: 0;
+}
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 991px) {
+  .luxury-navbar .navbar-nav {
+    background: rgba(26, 26, 26, 0.98);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .luxury-navbar .nav-link {
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin: 0.25rem 0;
+  }
+  
+  .luxury-navbar .nav-link:hover {
+    background: rgba(212, 175, 55, 0.1);
+  }
+}
+
+/* Background animation for fallback */
+@keyframes backgroundMove {
+  0%, 100% {
+    background-position: 0 0, 0 30px, 30px -30px, -30px 0px, 0 0;
+  }
+  25% {
+    background-position: 10px 10px, 10px 40px, 40px -20px, -20px 10px, 0 0;
+  }
+  50% {
+    background-position: 20px 0, 20px 30px, 50px -30px, -10px 0px, 0 0;
+  }
+  75% {
+    background-position: 10px -10px, 10px 20px, 40px -40px, -20px -10px, 0 0;
+  }
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%, 100% 50%, 50% 0%, 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%, 0% 100%, 0% 50%, 0% 0%;
+  }
+  50% {
+    background-position: 50% 100%, 50% 0%, 100% 100%, 0% 0%;
+  }
+  75% {
+    background-position: 0% 0%, 100% 100%, 25% 25%, 0% 0%;
+  }
+}
+
+/* Particle floating animation */
+@keyframes particleFloat {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(-10px) translateX(-5px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}
+
+/* Print styles */
+@media print {
+  .video-background,
+  .video-overlay,
+  .luxury-navbar {
+    display: none !important;
+  }
+  
+  .hero-section {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+  
+  .luxury-section {
+    padding: 2rem 0;
+  }
+  
+  .luxury-card,
+  .contact-info,
+  .timeline-content {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #ddd !important;
+  }
+  
+  .section-title,
+  .hero-title,
+  .card-title,
+  .timeline-title {
+    color: black !important;
+  }
+}

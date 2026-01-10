@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Test</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #000; }
+        video { width: 100%; max-width: 800px; }
+        .debug { color: white; font-family: Arial; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="debug">Testing video file...</div>
+    <video controls autoplay muted loop>
+        <source src="/videos/background-video.mp4" type="video/mp4">
+        <source src="./videos/background-video.mp4" type="video/mp4">
+        Video not supported
+    </video>
+    
+    <div class="debug" id="info"></div>
+    
+    <script>
+        const video = document.querySelector('video');
+        const info = document.getElementById('info');
+        
+        video.addEventListener('loadstart', () => info.innerHTML += 'Loading started<br>');
+        video.addEventListener('loadeddata', () => info.innerHTML += 'Data loaded<br>');
+        video.addEventListener('canplay', () => info.innerHTML += 'Can play<br>');
+        video.addEventListener('error', (e) => info.innerHTML += 'Error: ' + e.message + '<br>');
+        
+        // Check if file exists
+        fetch('/videos/background-video.mp4')
+            .then(response => {
+                if (response.ok) {
+                    info.innerHTML += 'Video file found<br>';
+                } else {
+                    info.innerHTML += 'Video file NOT found (404)<br>';
+                }
+            })
+            .catch(err => info.innerHTML += 'Fetch error: ' + err.message + '<br>');
+    </script>
+</body>
+</html>
