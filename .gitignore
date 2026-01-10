@@ -99,7 +99,4 @@ Thumbs.db
 # --- Uploaded Files ---
 uploaded_files/
 
-# --- Media files ---
-public/videos/
-*.mp4
 
