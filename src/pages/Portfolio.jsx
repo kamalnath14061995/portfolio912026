@@ -132,6 +132,28 @@ const Portfolio = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>
               </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                  Download
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a 
+                      className="dropdown-item" 
+                      href="#" 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        const link = document.createElement('a');
+                        link.href = '/resume.pdf';
+                        link.download = 'Kamalnath_Murugan_Resume.pdf';
+                        link.click();
+                      }}
+                    >
+                      <i className="bi bi-file-earmark-pdf me-2"></i>Download Resume
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -266,7 +288,7 @@ const Portfolio = () => {
             <div className="timeline-item" data-aos="fade-right">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="timeline-date">July 2024 - January 2025</div>
+                <div className="timeline-date">August 2024 - January 2025</div>
                 <h3 className="timeline-title">Freelance Tester</h3>
                 <div className="timeline-company">Micole • Remote, Spain</div>
                 <p className="timeline-description">
