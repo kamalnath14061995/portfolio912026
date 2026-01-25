@@ -168,9 +168,9 @@ const Portfolio = () => {
                 <h1 className="hero-title luxury-title">Kamalnath Murugan</h1>
                 <h2 className="hero-subtitle luxury-subtitle">QA Testing Professional & Software Engineer</h2>
                 <p className="hero-description luxury-subtitle">
-                  Experienced QA Testing professional with 3+ years of expertise in Java, API testing, 
-                  and automation frameworks. Specialized in Payment and Insurance domains with a proven 
-                  track record of delivering high-quality software solutions.
+                  QA Testing professional with 3+ years of experience in Java, API testing with Postman, 
+                  and automation frameworks including Selenium, Cucumber, and Karate. Proficient in manual 
+                  and automated testing across Payment and Insurance domains.
                 </p>
                 <div className="hero-buttons">
                   <button 
@@ -288,14 +288,13 @@ const Portfolio = () => {
             <div className="timeline-item" data-aos="fade-right">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="timeline-date">August 2024 - January 2025</div>
+                <div className="timeline-date">February 2024 - Present</div>
                 <h3 className="timeline-title">Freelance Tester</h3>
-                <div className="timeline-company">Micole • Remote, Spain</div>
+                <div className="timeline-company">Platform: Fiverr, Upwork • Remote</div>
                 <p className="timeline-description">
-                  Executed manual and automation testing for European education platform connecting schools 
-                  and parents for online admissions and subscription management. Performed API and UI testing 
-                  using Postman and Figma designs on Ubuntu environment, identifying and documenting 60+ defects 
-                  related to school listing and search functionality.
+                  Executed manual and automation testing for multiple projects including Micole (European education platform), 
+                  Property360-V1.1, DMI Tourism, and tryajo. Performed API and UI testing using Postman and Figma designs 
+                  on Ubuntu environment, identifying and documenting 60+ defects related to school listing and search functionality.
                 </p>
               </div>
             </div>
@@ -309,10 +308,12 @@ const Portfolio = () => {
                 <div className="timeline-company">Paytabs - Ogs Paylabs Private Limited • Chennai, India</div>
                 <p className="timeline-description">
                   Executed comprehensive API testing using Postman for payment gateway integrations, validating 
-                  50+ API endpoints across mobile, web, and POS systems. Designed and maintained test documentation 
-                  including test plans, test cases, and defect reports, achieving 95% test coverage for payment 
-                  processing workflows. Performed functional, regression, and integration testing for mobile 
-                  applications, web platforms, and POS machine transactions.
+                  50+ API endpoints across mobile, web, and POS systems. Issuing switch for transaction, 
+                  Acquiring switch for transaction with manual testing like pos machine testing, mobile testing, 
+                  web testing. Designed and maintained test documentation including test plans, test cases, and 
+                  defect reports, achieving 95% test coverage for payment processing workflows. Performed 
+                  functional, regression, and integration testing for mobile applications, web platforms, and 
+                  POS machine transactions, identifying and resolving 80+ critical defects throughout the project lifecycle.
                 </p>
               </div>
             </div>
@@ -342,9 +343,9 @@ const Portfolio = () => {
                 <div className="timeline-company">Barclay's Private Limited - Kelly Services • Chennai, India</div>
                 <p className="timeline-description">
                   Provided payment protection insurance advisory services with prequal applications for Barclays 
-                  banking customers, handling 40+ customer inquiries daily with 98% satisfaction rate. Processed 
-                  insurance claims and policy modifications while ensuring compliance with banking sector regulations 
-                  and company policies.
+                  banking customers, handling 40+ customer inquiries daily and hot fixes with 98% satisfaction rate. 
+                  Processed insurance claims and policy modifications while ensuring compliance with banking sector 
+                  regulations and company policies.
                 </p>
               </div>
             </div>
@@ -472,12 +473,12 @@ const Portfolio = () => {
                 <div className="card-icon">
                   <i className="bi bi-mortarboard"></i>
                 </div>
-                <h3 className="card-title">Micole Education Platform</h3>
+                <h3 className="card-title">Freelance Testing Projects</h3>
                 <p className="card-text">
-                  <strong>Duration:</strong> August 2024 - January 2025<br/>
-                  European education platform testing including API and UI testing using Figma designs. 
-                  Utilized PHP technology on Ubuntu OS and identified numerous issues related to school 
-                  listings and search functionality.
+                  <strong>Duration:</strong> February 2024 - Present<br/>
+                  Multiple projects including Micole (European education platform), Property360-V1.1, DMI Tourism, 
+                  and tryajo. Performed API and UI testing using Postman and Figma designs on Ubuntu environment, 
+                  identifying and documenting 60+ defects related to various functionalities.
                 </p>
                 <div className="mt-3">
                   <span className="badge bg-warning text-dark me-2">API Testing</span>
