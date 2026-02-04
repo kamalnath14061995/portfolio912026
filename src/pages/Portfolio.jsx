@@ -386,7 +386,7 @@ const Portfolio = () => {
                   <i className="bi bi-code-slash"></i>
                 </div>
                 <div className="skill-name">Programming</div>
-                <p className="card-text mt-2">Java, JavaScript</p>
+                <p className="card-text mt-2">Java, JavaScript, Python</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
