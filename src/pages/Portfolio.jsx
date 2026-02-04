@@ -168,7 +168,7 @@ const Portfolio = () => {
                 <h1 className="hero-title luxury-title">Kamalnath Murugan</h1>
                 <h2 className="hero-subtitle luxury-subtitle">QA Testing Professional & Software Engineer</h2>
                 <p className="hero-description luxury-subtitle">
-                  QA Testing professional with 3+ years of experience in Java, API testing with Postman, 
+                  QA Testing professional with 3+ years of experience in Java, Python, API testing with Postman, 
                   and automation frameworks including Selenium, Cucumber, and Karate. Proficient in manual 
                   and automated testing across Payment and Insurance domains.
                 </p>
