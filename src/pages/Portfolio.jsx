@@ -166,11 +166,11 @@ const Portfolio = () => {
             <div className="col-lg-10">
               <div className="hero-content" data-aos="fade-up">
                 <h1 className="hero-title luxury-title">Kamalnath Murugan</h1>
-                <h2 className="hero-subtitle luxury-subtitle">QA Testing Professional & Software Engineer</h2>
+                <h2 className="hero-subtitle luxury-subtitle">Software Developer & QA Testing Professional</h2>
                 <p className="hero-description luxury-subtitle">
-                  QA Testing professional with 3+ years of experience in Java, Python, API testing with Postman, 
-                  and automation frameworks including Selenium, Cucumber, and Karate. Proficient in manual 
-                  and automated testing across Payment and Insurance domains.
+                  Software Developer with 3+ years of experience in Python development, unit testing, and backend application workflows. 
+                  Experienced in data validation, API integrations, and building scalable software solutions across payment and insurance domains. 
+                  Proficient in automation and testing frameworks including Selenium, Playwright, Requests, PyTest, TestNG, Cucumber, Karate, and JUnit.
                 </p>
                 <div className="hero-buttons">
                   <button 
@@ -225,9 +225,9 @@ const Portfolio = () => {
                 </div>
                 <h3 className="card-title">Professional Summary</h3>
                 <p className="card-text">
-                  QA Testing professional with comprehensive experience in manual and automated testing 
-                  across Payment and Insurance domains. Proficient in API testing with Postman, 
-                  automation frameworks including Selenium, Cucumber, and Karate.
+                  Software Developer with 3+ years of experience in Python development, unit testing, and backend application workflows. 
+                  Experienced in data validation, API integrations, and building scalable software solutions across payment domain and 
+                  insurance like health, motor domains.
                 </p>
               </div>
             </div>
@@ -288,13 +288,29 @@ const Portfolio = () => {
             <div className="timeline-item" data-aos="fade-right">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="timeline-date">February 2024 - Present</div>
-                <h3 className="timeline-title">Freelance Tester</h3>
-                <div className="timeline-company">Platform: Fiverr, Upwork • Remote</div>
+                <div className="timeline-date">January 15, 2025 - Present</div>
+                <h3 className="timeline-title">Software Developer/Automation Engineer - Contract</h3>
+                <div className="timeline-company">Staunch Technologies Pvt Ltd • India</div>
                 <p className="timeline-description">
-                  Executed manual and automation testing for multiple projects including Micole (European education platform), 
-                  Property360-V1.1, DMI Tourism, and tryajo. Performed API and UI testing using Postman and Figma designs 
-                  on Ubuntu environment, identifying and documenting 60+ defects related to school listing and search functionality.
+                  Develop and implement Python Django-based unit tests across data pipelines and engineered features to ensure data accuracy, 
+                  algorithm reliability, and system stability. Design and implement input/output validation frameworks for algorithm-driven services. 
+                  Build and maintain data snapshot and archiving mechanisms to preserve historical algorithm inputs and outputs, supporting data analytics, 
+                  audit compliance, and reproducibility of service reports.
+                </p>
+              </div>
+            </div>
+
+            {/* Micole */}
+            <div className="timeline-item" data-aos="fade-left">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-date">July 2024 - January 2025</div>
+                <h3 className="timeline-title">Software Tester - Contract</h3>
+                <div className="timeline-company">Micole • Spain</div>
+                <p className="timeline-description">
+                  Executed manual and automation testing for European education platform connecting schools and parents 
+                  for online admissions and subscription management. Performed API and UI testing using Postman and Figma 
+                  designs on Ubuntu environment, identifying and documenting 60+ defects related to school listing and search functionality.
                 </p>
               </div>
             </div>
@@ -307,13 +323,12 @@ const Portfolio = () => {
                 <h3 className="timeline-title">Software Engineer</h3>
                 <div className="timeline-company">Paytabs - Ogs Paylabs Private Limited • Chennai, India</div>
                 <p className="timeline-description">
-                  Executed comprehensive API testing using Postman for payment gateway integrations, validating 
-                  50+ API endpoints across mobile, web, and POS systems. Issuing switch for transaction, 
-                  Acquiring switch for transaction with manual testing like pos machine testing, mobile testing, 
-                  web testing. Designed and maintained test documentation including test plans, test cases, and 
-                  defect reports, achieving 95% test coverage for payment processing workflows. Performed 
-                  functional, regression, and integration testing for mobile applications, web platforms, and 
-                  POS machine transactions, identifying and resolving 80+ critical defects throughout the project lifecycle.
+                  Supported payment gateway integrations by implementing Python and Django-based validation modules and structured test scenarios 
+                  to verify API data inputs, outputs, and transaction processing across 50+ endpoints for mobile, web, and POS platforms. 
+                  Designed and maintained validation frameworks and documentation to support unit testing across data processing workflows, 
+                  improving payment transaction accuracy and system reliability with 95% test coverage. Performed functional, regression, and 
+                  integration validation by analyzing transaction data flow, API responses, and backend processing logic within Python/Django-based 
+                  service architecture, identifying and resolving 80+ critical defects.
                 </p>
               </div>
             </div>
@@ -326,10 +341,10 @@ const Portfolio = () => {
                 <h3 className="timeline-title">Software Engineer</h3>
                 <div className="timeline-company">Paytm - Codevik Technologies Private Limited • Chennai, India</div>
                 <p className="timeline-description">
-                  Executed integration testing for Paytm mobile application, testing insurance products from 
-                  multiple providers including Reliance and Royal Sundaram with 100% coverage. Conducted UAT 
-                  testing and validation for insurance features, ensuring seamless user experience and compliance 
-                  with business requirements.
+                  Supported backend integration of insurance service modules by validating data processing logic, API integrations, 
+                  and workflow implementations across multiple insurance providers. Designed and executed Python-based validation scripts 
+                  and test scenarios to verify data integrity, business rule processing, and system performance, improving reliability and 
+                  supporting analytics and compliance reporting.
                 </p>
               </div>
             </div>
@@ -339,13 +354,14 @@ const Portfolio = () => {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-date">May 2018 - September 2020</div>
-                <h3 className="timeline-title">Software Associate</h3>
+                <h3 className="timeline-title">Software Associate - Contract</h3>
                 <div className="timeline-company">Barclay's Private Limited - Kelly Services • Chennai, India</div>
                 <p className="timeline-description">
-                  Provided payment protection insurance advisory services with prequal applications for Barclays 
-                  banking customers, handling 40+ customer inquiries daily and hot fixes with 98% satisfaction rate. 
-                  Processed insurance claims and policy modifications while ensuring compliance with banking sector 
-                  regulations and company policies.
+                  Provided payment protection insurance advisory services with prequal applications for Barclays banking customers, 
+                  handling 40+ customer inquiries daily and hot fixes with 98% satisfaction rate. Processed insurance claims and policy 
+                  modifications while ensuring compliance with banking sector regulations and company policies. Supported insurance application 
+                  and prequalification workflows by troubleshooting system issues and performing Python-based data validation and automation 
+                  support to improve process efficiency across banking service platforms.
                 </p>
               </div>
             </div>
@@ -355,7 +371,7 @@ const Portfolio = () => {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-date">May 2017 - May 2018</div>
-                <h3 className="timeline-title">Customer Care Executive</h3>
+                <h3 className="timeline-title">Customer Service Associate</h3>
                 <div className="timeline-company">Exl Service • Chennai, India</div>
                 <p className="timeline-description">
                   Managed insurance refund processing for customer applications, handling 30+ refund requests 
@@ -386,7 +402,7 @@ const Portfolio = () => {
                   <i className="bi bi-code-slash"></i>
                 </div>
                 <div className="skill-name">Programming</div>
-                <p className="card-text mt-2">Java, JavaScript, Python</p>
+                <p className="card-text mt-2">Python, Java</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
@@ -413,7 +429,7 @@ const Portfolio = () => {
                   <i className="bi bi-robot"></i>
                 </div>
                 <div className="skill-name">Automation</div>
-                <p className="card-text mt-2">Selenium, JUnit, Cucumber, TestNG, Karate</p>
+                <p className="card-text mt-2">Selenium, Playwright, PyTest, TestNG, Cucumber, Karate, JUnit</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
@@ -446,6 +462,15 @@ const Portfolio = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="skill-item" data-aos="zoom-in" data-aos-delay="700">
                 <div className="skill-icon">
+                  <i className="bi bi-code-square"></i>
+                </div>
+                <div className="skill-name">Framework</div>
+                <p className="card-text mt-2">Django</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 mb-4">
+              <div className="skill-item" data-aos="zoom-in" data-aos-delay="800">
+                <div className="skill-icon">
                   <i className="bi bi-shield-check"></i>
                 </div>
                 <div className="skill-name">Domains</div>
@@ -471,14 +496,34 @@ const Portfolio = () => {
             <div className="col-lg-6 mb-4">
               <div className="luxury-card" data-aos="fade-up">
                 <div className="card-icon">
+                  <i className="bi bi-ship"></i>
+                </div>
+                <h3 className="card-title">Defect Reporting System - Ship Management</h3>
+                <p className="card-text">
+                  <strong>Duration:</strong> January 2025 - Present<br/>
+                  Developed a Defect Reporting and Tracking System to manage, monitor, and resolve ship maintenance defects. 
+                  Designed and implemented backend modules using Python to capture defect logs, maintenance data, and status tracking workflows. 
+                  Built data validation and reporting mechanisms to ensure accuracy of defect records, maintenance schedules, and operational analytics.
+                </p>
+                <div className="mt-3">
+                  <span className="badge bg-warning text-dark me-2">Python</span>
+                  <span className="badge bg-warning text-dark me-2">Django</span>
+                  <span className="badge bg-warning text-dark me-2">Data Validation</span>
+                  <span className="badge bg-warning text-dark">Workflow Automation</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="luxury-card" data-aos="fade-up">
+                <div className="card-icon">
                   <i className="bi bi-mortarboard"></i>
                 </div>
-                <h3 className="card-title">Freelance Testing Projects</h3>
+                <h3 className="card-title">Micole - School Management System</h3>
                 <p className="card-text">
-                  <strong>Duration:</strong> February 2024 - Present<br/>
-                  Multiple projects including Micole (European education platform), Property360-V1.1, DMI Tourism, 
-                  and tryajo. Performed API and UI testing using Postman and Figma designs on Ubuntu environment, 
-                  identifying and documenting 60+ defects related to various functionalities.
+                  <strong>Duration:</strong> August 2024 - January 2025<br/>
+                  Handling API Testing and UI Testing using Figma design and used PHP technology on Ubuntu OS. 
+                  School admissions and School details of Europe where Micole is the platform to connect the school with the parents 
+                  digitally online for admissions for various classes and courses through video conference.
                 </p>
                 <div className="mt-3">
                   <span className="badge bg-warning text-dark me-2">API Testing</span>
@@ -493,17 +538,18 @@ const Portfolio = () => {
                 <div className="card-icon">
                   <i className="bi bi-credit-card"></i>
                 </div>
-                <h3 className="card-title">Paytabs Payment Gateway</h3>
+                <h3 className="card-title">Bijlipay, ATMC, Card Management System, and Paytabs Shopify</h3>
                 <p className="card-text">
                   <strong>Duration:</strong> November 2022 - November 2023<br/>
-                  Comprehensive testing of payment gateway integrations including Bijlipay, ATMC, 
-                  Card Management System, and Paytabs Shopify integration. Achieved 95% automation 
-                  test accuracy across all applications.
+                  Spearheaded integration efforts across projects such as Bijlipay, ATMC, Card Management System, and Paytabs Shopify. 
+                  Bijlipay products includes POS terminal machine key loaded for transaction. ATMC controls ATM machines with up-to-date 
+                  records and transaction records, machine health and status. Paytabs integrated with Shopify to provide website card for users 
+                  to create and display products. Automation tests across whole applications with 95% accuracy.
                 </p>
                 <div className="mt-3">
                   <span className="badge bg-warning text-dark me-2">Payment Gateway</span>
-                  <span className="badge bg-warning text-dark me-2">API Testing</span>
-                  <span className="badge bg-warning text-dark me-2">Automation</span>
+                  <span className="badge bg-warning text-dark me-2">Python</span>
+                  <span className="badge bg-warning text-dark me-2">Django</span>
                   <span className="badge bg-warning text-dark">Shopify</span>
                 </div>
               </div>
@@ -513,16 +559,16 @@ const Portfolio = () => {
                 <div className="card-icon">
                   <i className="bi bi-shield-check"></i>
                 </div>
-                <h3 className="card-title">Paytm Insurance Testing</h3>
+                <h3 className="card-title">Paytm Insurance - Motor Insurance, Health Care Insurance</h3>
                 <p className="card-text">
                   <strong>Duration:</strong> March 2022 - September 2022<br/>
-                  Tested and validated 40+ REST APIs across multiple insurance products. Generated 
-                  detailed test reports that improved data accuracy and reduced integration defects 
-                  by 30%. Executed end-to-end UAT integration testing with 5+ third-party partners.
+                  Executed end-to-end UAT integration testing between Paytm and 5+ third-party insurance partners, reducing post-release 
+                  issues by 35% and ensuring smooth policy onboarding. Bike Insurance and Car Insurance has been integrated with the Paytm 
+                  platform with third party insurance companies.
                 </p>
                 <div className="mt-3">
                   <span className="badge bg-warning text-dark me-2">Insurance</span>
-                  <span className="badge bg-warning text-dark me-2">REST API</span>
+                  <span className="badge bg-warning text-dark me-2">Python</span>
                   <span className="badge bg-warning text-dark me-2">UAT Testing</span>
                   <span className="badge bg-warning text-dark">Integration</span>
                 </div>
@@ -533,18 +579,36 @@ const Portfolio = () => {
                 <div className="card-icon">
                   <i className="bi bi-bank"></i>
                 </div>
-                <h3 className="card-title">Barclays Payment Protection</h3>
+                <h3 className="card-title">Barclay Card Payment Protection Insurance - Barclay Credit Card</h3>
                 <p className="card-text">
                   <strong>Duration:</strong> May 2018 - September 2020<br/>
-                  Refined the refund process for Barclays Card Payment Protection Insurance by 
-                  automating application workflows. Enhanced accuracy and accelerated claim 
-                  resolutions while maintaining comprehensive documentation for audit compliance.
+                  Maintained comprehensive documentation of all claim inquiries and resolution processes within internal systems to support 
+                  audit and regulatory standards. Refined the refund process for Barclay Card Payment Protection Insurance by automating 
+                  application workflows. Provided Health care medical insurance products to Implementation of Electronic Health Records (EHR) 
+                  and blockchain for secure, interoperable data sharing.
                 </p>
                 <div className="mt-3">
                   <span className="badge bg-warning text-dark me-2">Banking</span>
                   <span className="badge bg-warning text-dark me-2">Insurance</span>
-                  <span className="badge bg-warning text-dark me-2">Process Automation</span>
-                  <span className="badge bg-warning text-dark">Compliance</span>
+                  <span className="badge bg-warning text-dark me-2">Python</span>
+                  <span className="badge bg-warning text-dark">Automation</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="luxury-card" data-aos="fade-up" data-aos-delay="400">
+                <div className="card-icon">
+                  <i className="bi bi-file-earmark-text"></i>
+                </div>
+                <h3 className="card-title">Hartford Insurance</h3>
+                <p className="card-text">
+                  <strong>Duration:</strong> May 2017 - May 2018<br/>
+                  Handling Insurance Cancellation Process and remove the duplicate complaint logging.
+                </p>
+                <div className="mt-3">
+                  <span className="badge bg-warning text-dark me-2">Insurance</span>
+                  <span className="badge bg-warning text-dark me-2">Process Management</span>
+                  <span className="badge bg-warning text-dark">Data Quality</span>
                 </div>
               </div>
             </div>
