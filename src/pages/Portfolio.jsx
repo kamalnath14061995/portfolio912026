@@ -213,7 +213,7 @@ const Portfolio = () => {
             <div className="col-12">
               <h2 className="section-title" data-aos="fade-up">About Me</h2>
               <p className="section-subtitle" data-aos="fade-up" data-aos-delay="100">
-                Passionate about quality assurance and delivering exceptional software experiences
+                Software Developer focused on Python backend development, automation, and data validation, with experience delivering reliable and scalable software across fintech and insurance domains.
               </p>
             </div>
           </div>
@@ -279,8 +279,7 @@ const Portfolio = () => {
             <div className="col-12">
               <h2 className="section-title" data-aos="fade-up">Professional Experience</h2>
               <p className="section-subtitle" data-aos="fade-up" data-aos-delay="100">
-                A journey through diverse roles in software testing and quality assurance
-              </p>
+            A journey through diverse roles in software development, backend validation, and automation engineering across fintech, insurance, and platform-based systems.</p>
             </div>
           </div>
           <div className="timeline">
@@ -391,7 +390,7 @@ const Portfolio = () => {
             <div className="col-12">
               <h2 className="section-title" data-aos="fade-up">Technical Skills</h2>
               <p className="section-subtitle" data-aos="fade-up" data-aos-delay="100">
-                Comprehensive expertise in testing tools and technologies
+                Comprehensive expertise in Python development, backend technologies, automation frameworks, and testing tools.
               </p>
             </div>
           </div>
