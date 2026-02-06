@@ -488,7 +488,7 @@ const Portfolio = () => {
             <div className="col-12">
               <h2 className="section-title" data-aos="fade-up">Key Projects</h2>
               <p className="section-subtitle" data-aos="fade-up" data-aos-delay="100">
-                Notable projects showcasing expertise in testing and quality assurance
+                Notable projects showcasing expertise in developing and testing quality assurance
               </p>
             </div>
           </div>
